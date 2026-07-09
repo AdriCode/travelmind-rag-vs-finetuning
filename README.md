@@ -39,7 +39,7 @@ Both systems evaluated on a 10-query test set:
 | ROUGE-2 | 0.0758 | 0.0221 | Groq RAG (+243%) |
 | ROUGE-L | 0.1606 | 0.1082 | Groq RAG (+48%) |
 
-**Key finding:** RAG outperformed fine-tuning on every metric. This isn't surprising given the constraints (only 1,000 training samples, 100 training steps on a free-tier T4 GPU) — the fine-tuning pipeline is architecturally correct, but under-trained. Full analysis, including a mechanistic breakdown of *why* the training loss oscillated instead of decreasing, is in the [full report](docs/TravelMind_Report.pdf).
+**Key finding:** RAG outperformed fine-tuning on every metric. This isn't surprising given the constraints (only 1,000 training samples, 100 training steps on a free-tier T4 GPU) — the fine-tuning pipeline is architecturally correct, but under-trained. Full analysis, including a mechanistic breakdown of *why* the training loss oscillated instead of decreasing, is in the [full report](docs/TravelMind_Report_v2.pdf.pdf).
 
 ## Dataset
 
